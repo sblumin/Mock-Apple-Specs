@@ -65,10 +65,46 @@ body {
 }
 
 .displaygrid {
-  text-align: left;
+  display: grid;
+  grid-template-columns: 2fr 6fr;
+}
+
+.display {
+  text-align: center;
 }
 
 .processorgrid {
   display: grid;
-  grid-templace-columns: 1fr 1fr 1fr;
+  grid-template-columns: 2fr 3fr 3fr;
 }
+
+.processor {
+  text-align: center;
+}
+
+.accessibilitygrid {
+  display: grid;
+  grid-template-columns: 2fr 6fr;
+}
+
+.accessibility {
+  text-align: center;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+}
+
+.box {
+  width: 980px;
+  margin: auto;
+  text-align: left;
+  background: #E4E4CC;
+}
+
+.environmentinfo {
+  display:grid;
+  grid-template-columns: 2fr 2fr;
+}
+  
